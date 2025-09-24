@@ -9,25 +9,25 @@ function Service() {
       </h2>
 
       <div className="p-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-10 mb-10">
-        <div className="w-70 h-36 bg-[url('./Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
+        <div className="w-70 h-36 bg-[url('/Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
           <p className="font-bold text-xl">Wedding Photoshoot</p>
         </div>
-        <div className="w-70 h-36 bg-[url('./Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
+        <div className="w-70 h-36 bg-[url('/Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
           <p className="font-bold text-xl">Wedding Videoshoot</p>
         </div>
-        <div className="w-70 h-36 bg-[url('./Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
+        <div className="w-70 h-36 bg-[url('/Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
           <p className="font-bold text-xl">Pre-Wedding Shoot</p>
         </div>
-        <div className="w-70 h-36 bg-[url('./Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
+        <div className="w-70 h-36 bg-[url('/Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
           <p className="font-bold text-xl">Drone Shoot</p>
         </div>
-        <div className="w-70 h-36 bg-[url('./Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
+        <div className="w-70 h-36 bg-[url('/Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
           <p className="font-bold text-xl">Album Making</p>
         </div>
-        <div className="w-70 h-36 bg-[url('./Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
+        <div className="w-70 h-36 bg-[url('/Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
           <p className="font-bold text-xl">Reel Making</p>
         </div>
-        <div className="w-70 h-36 bg-[url('./Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
+        <div className="w-70 h-36 bg-[url('/Images/service-bg.webp')] bg-cover bg-center rounded-2xl cursor-pointer flex items-center justify-center shadow-lg dark:shadow-[#363636]">
           <p className="font-bold text-xl">Video Editing</p>
         </div>
       </div>
