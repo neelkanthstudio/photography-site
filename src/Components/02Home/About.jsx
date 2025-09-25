@@ -12,7 +12,7 @@ function About() {
           <div className="flex flex-col items-center hover:scale-115 duration-200 cursor-pointer">
             <img
               src="./Images/Maulik.webp"
-              alt="Partner 1"
+              alt="Maulik Prajapati"
               className="w-full max-w-xs rounded-full shadow-md dark:shadow-[#858585] object-cover "
             />
             <p className="mt-3 text-lg dark:text-white">Maulik Prajapati</p>
@@ -29,7 +29,7 @@ function About() {
           <div className="flex flex-col items-center hover:scale-115 duration-200 cursor-pointer">
             <img
               src="./Images/Komit.webp"
-              alt="Partner 2"
+              alt="Komit Prajapati"
               className="w-full max-w-xs rounded-full shadow-md dark:shadow-[#858585] object-cover"
             />
             <p className="mt-3 text-lg dark:text-white">Komit Prajapati</p>
