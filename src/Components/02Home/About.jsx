@@ -13,6 +13,7 @@ function About() {
             <img
               src="./Images/Maulik.webp"
               alt="Maulik Prajapati"
+              loading="lazy"
               className="w-full max-w-xs rounded-full shadow-md dark:shadow-[#858585] object-cover "
             />
             <p className="mt-3 text-lg dark:text-white">Maulik Prajapati</p>
@@ -22,6 +23,7 @@ function About() {
             <img
               src="./Images/Logo.webp"
               alt="Logo"
+              loading="lazy"
               className="w-full max-w-xs rounded-full shadow-md dark:shadow-[#858585] object-cover"
             />
           </div>
@@ -30,6 +32,7 @@ function About() {
             <img
               src="./Images/Komit.webp"
               alt="Komit Prajapati"
+              loading="lazy"
               className="w-full max-w-xs rounded-full shadow-md dark:shadow-[#858585] object-cover"
             />
             <p className="mt-3 text-lg dark:text-white">Komit Prajapati</p>

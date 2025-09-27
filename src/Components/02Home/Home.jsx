@@ -9,7 +9,7 @@ function Home() {
       <div className="absolute inset-0 w-full h-full z-0">
         <video
           className="w-full h-full object-cover"
-          src="/Images/video-bg.mp4"
+          src="Images/video-bg.mp4"
           autoPlay
           loop
           muted
