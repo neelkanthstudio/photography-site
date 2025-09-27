@@ -12,16 +12,16 @@ function Portfolio() {
   }, [selectedVideo]);
 
   const portfolioItems = [
-    { type: "image", src: "./Images/portfolio-1.webp" },
-    { type: "image", src: "./Images/portfolio-2.webp" },
-    { type: "image", src: "./Images/portfolio-3.webp" },
+    { type: "image", src: "./Images/portfolio-1.webp", loading: "lazy" },
+    { type: "image", src: "./Images/portfolio-2.webp", loading: "lazy" },
+    { type: "image", src: "./Images/portfolio-3.webp", loading: "lazy" },
     { type: "video", src: "./Images/video-1.mp4" },
-    { type: "image", src: "./Images/portfolio-4.webp" },
-    { type: "image", src: "./Images/portfolio-5.webp" },
-    { type: "image", src: "./Images/portfolio-6.webp" },
+    { type: "image", src: "./Images/portfolio-4.webp", loading: "lazy" },
+    { type: "image", src: "./Images/portfolio-5.webp", loading: "lazy" },
+    { type: "image", src: "./Images/portfolio-6.webp", loading: "lazy" },
     { type: "video", src: "./Images/video-2.mp4" },
-    { type: "image", src: "./Images/portfolio-7.webp" },
-    { type: "image", src: "./Images/portfolio-8.webp" },
+    { type: "image", src: "./Images/portfolio-7.webp", loading: "lazy" },
+    { type: "image", src: "./Images/portfolio-8.webp", loading: "lazy" },
     { type: "video", src: "./Images/video-3.mp4" },
   ];
 
