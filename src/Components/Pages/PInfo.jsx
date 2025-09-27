@@ -22,7 +22,7 @@ function PInfo() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const delay = Math.random() * 2000 + 2000;
+    const delay = Math.random() * 2000 + 1000;
 
     const timer = setTimeout(() => {
       setLoading(false);
