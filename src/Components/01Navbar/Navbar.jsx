@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import LazyBackground from "../LazyLoading/LazyBackground";
 
 function Navbar({ theme, setTheme, setIsAnimating }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,10 @@ function Navbar({ theme, setTheme, setIsAnimating }) {
   return (
     <header className="fixed top-0 left-0 h-20 z-10 w-full shadow-sm bg-[#f0f8ffde] dark:bg-[#0c121681] dark:shadow-[#282828]">
       <nav className="w-full h-full flex items-center justify-between px-5 sm:px-6 md:px-14">
-        <div className="h-12 w-12 rounded-full bg-[url('/Images/Logo.webp')] bg-center bg-cover shadow-sm border"></div>
+        <LazyBackground
+          src="/Images/Logo.webp"
+          className="h-12 w-12 rounded-full bg-center bg-cover shadow-sm border"
+        />
 
         <ul
           className={`bg-transparent max-lg:bg-[#f0f8ff] dark:bg-transparent max-lg:dark:bg-[#0c1216] lg:flex lg:items-center max-lg:absolute max-lg:top-22 max-lg:right-20 max-sm:right-12 max-lg:px-6 max-lg:py-1.5 max-lg:rounded-lg max-lg:shadow-lg ${

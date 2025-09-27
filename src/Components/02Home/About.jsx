@@ -8,8 +8,8 @@ function About() {
         About us
       </h2>
       <div className="p-2 flex flex-col gap-7">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 p-7">
-          <div className="flex flex-col items-center hover:scale-115 duration-200 cursor-pointer">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-7">
+          <div className="flex flex-col items-center hover:scale-105 duration-200 cursor-pointer">
             <img
               src="./Images/Maulik.webp"
               alt="Maulik Prajapati"
@@ -19,7 +19,7 @@ function About() {
             <p className="mt-3 text-lg dark:text-white">Maulik Prajapati</p>
           </div>
 
-          <div className="flex flex-col items-center hover:scale-115 duration-200 cursor-pointer">
+          <div className="flex flex-col items-center hover:scale-105 duration-200 cursor-pointer">
             <img
               src="./Images/Logo.webp"
               alt="Logo"
@@ -28,7 +28,7 @@ function About() {
             />
           </div>
 
-          <div className="flex flex-col items-center hover:scale-115 duration-200 cursor-pointer">
+          <div className="flex flex-col items-center hover:scale-105 duration-200 cursor-pointer">
             <img
               src="./Images/Komit.webp"
               alt="Komit Prajapati"
