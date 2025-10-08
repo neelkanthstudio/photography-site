@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import LazyBackground from "../LazyLoading/LazyBackground";
 
 function Home() {
   return (
@@ -19,15 +20,14 @@ function Home() {
       </div>
       <div className="text-center z-2 text-white px-2.5">
         <h3 className="text-2xl my-2 mt-10 sm:text-3xl">Welcome to</h3>
-        <div className="my-2 sm:mt-5 flex flex-col sm:flex-row items-center justify-center w-fit m-auto px-3 py-1 rounded-md font-bold text-4xl sm:text-5xl">
-          <div className="bg-amber-50 rounded-tl-xl rounded-tr-xl sm:rounded-bl-xl sm:rounded-tr-none px-3 py-2">
-            <span className="text-[#ec0405]">N</span>
-            <span className="text-[#001c6d]">EELKANTH</span>
-          </div>
-          <span className="text-black bg-amber-50 rounded-bl-xl rounded-br-xl sm:rounded-bl-none sm:rounded-tr-xl px-3 py-2 w-full">
-            Studio
-          </span>
+
+        <div className="flex items-center justify-center">
+          <LazyBackground
+            src="/Images/Logo.webp"
+            className="my-2 sm:mt-5 rounded-full bg-center bg-cover w-35 h-35 sm:w-40 sm:h-40 md:w-50 md:h-50"
+          />
         </div>
+
         <h1 className="mt-10 text-4xl leading-12 sm:text-5xl sm:mt-20">
           Photography & Videography
         </h1>
