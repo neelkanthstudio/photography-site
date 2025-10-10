@@ -19,7 +19,7 @@ function Home() {
         <div className="absolute inset-0 bg-black/70"></div>
       </div>
       <div className="text-center z-2 text-white px-2.5">
-        <h3 className="text-2xl my-2 mt-14 sm:text-3xl">Welcome to</h3>
+        <h3 className="text-2xl my-2 mt-16 sm:text-3xl">Welcome to</h3>
 
         <div className="flex items-center justify-center">
           <LazyBackground
