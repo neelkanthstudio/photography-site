@@ -32,14 +32,6 @@ function Navbar({ theme, setTheme, setIsAnimating }) {
           </li>
           <li className="lg:mx-5 my-3 list-none">
             <Link
-              to="/Pages/PInfo"
-              className="no-underline text-[#000] dark:text-white text-lg "
-            >
-              Payment Info
-            </Link>
-          </li>
-          <li className="lg:mx-5 my-3 list-none">
-            <Link
               to="/Pages/Contact"
               className="no-underline text-[#000] dark:text-white text-lg"
             >

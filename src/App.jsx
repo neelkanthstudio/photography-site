@@ -5,6 +5,7 @@ import Home from "./Components/02Home/Home";
 import About from "./Components/02Home/About";
 import Service from "./Components/02Home/Service";
 import Portfolio from "./Components/02Home/Portfolio";
+import PCards from "./Components/Pricing/PCards";
 import Footer from "./Components/03Footer/Footer";
 import ThemeTransition from "./Components/Theme/ThemeTransition";
 
@@ -25,7 +26,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const delay = Math.random() * 2000 + 1000;
+    const delay = Math.random() * 1000 + 500;
 
     const timer = setTimeout(() => {
       setLoading(false);
@@ -59,6 +60,7 @@ function App() {
           <About />
           <Service />
           <Portfolio />
+          <PCards />
           <Footer />
         </div>
       )}
