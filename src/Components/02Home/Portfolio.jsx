@@ -14,34 +14,36 @@ function Portfolio() {
   const portfolioItems = [
     {
       type: "image",
-      src: "./Images/portfolio-1.webp",
+      src: "./Images/01.webp",
       alt: "Outdoor Photoshoot",
     },
     {
       type: "image",
-      src: "./Images/portfolio-2.webp",
+      src: "./Images/02.webp",
       alt: "Haldi Photoshoot",
     },
     {
       type: "image",
-      src: "./Images/portfolio-3.webp",
+      src: "./Images/03.webp",
       alt: "Wedding Ceremony",
     },
     { type: "video", src: "./Images/video-1.mp4" },
     {
       type: "image",
-      src: "./Images/portfolio-4.webp",
+      src: "./Images/04.webp",
       alt: "Wedding Shoot Man",
     },
     {
       type: "image",
-      src: "./Images/portfolio-5.webp",
+      src: "./Images/05.webp",
       alt: "Wedding Shoot",
     },
-    { type: "image", src: "./Images/portfolio-6.webp", alt: "Wedding Shoot" },
+    { type: "image", src: "./Images/06.webp", alt: "Wedding Shoot" },
     { type: "video", src: "./Images/video-2.mp4" },
-    { type: "image", src: "./Images/portfolio-7.webp", alt: "Indoor Shoot" },
-    { type: "image", src: "./Images/portfolio-8.webp", alt: "Wedding Shoot" },
+    { type: "image", src: "./Images/07.webp", alt: "Indoor Shoot" },
+    { type: "image", src: "./Images/08.webp", alt: "Wedding Shoot" },
+    { type: "image", src: "./Images/09.webp", alt: "Wedding Shoot" },
+    { type: "image", src: "./Images/10.webp", alt: "Wedding Shoot" },
     { type: "video", src: "./Images/video-3.mp4" },
   ];
 
@@ -84,7 +86,7 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          )
+          ),
         )}
       </div>
 
